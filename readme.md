@@ -11,7 +11,7 @@ mraa4j is a thin layer on top of Intel's librmraa C/C++ library using Java Nativ
 Use maven to build the library. Add the resulting jar to your project. An additional dependency is the Java Native Access (JNA) library. `jna-4.1.0.jar`. You can build a jar including all dependencies with `mvn assembly:assembly`.
 Here is an example to use Analog IO (AIO):
 
-<pre>
+<pre lang="java"><code>
 
 public static void mainAnalogIO(String[] args) {
 	System.out.println("Mraa4j");
@@ -36,7 +36,7 @@ public static void mainAnalogIO(String[] args) {
 	}
 }
 
-</pre>
+</code></pre>
 
 ## License ##
 The MIT License (MIT)
