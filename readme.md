@@ -23,7 +23,7 @@ public static void mainAnalogIO(String[] args) {
 	System.out.println("Platform version is: " + version);
 	try {
 		AnalogIO aio = new AnalogIO(0); // AIO pin 0, GPIO pin 14
-		for (int i=0; i<10; i++) {
+		for (int i=0; i&lt;10; i++) {
 			int value = aio.read();
 			System.out.println("Sensor light value is: " + value);
 			Thread.sleep(3000);
